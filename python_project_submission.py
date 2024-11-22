@@ -30,7 +30,7 @@ def main():
             print("No movies found for the selected genre.")
             continue
 
-        # Processing movie data
+        # Processing movies data
         movie_df = movies_list.process_movie_data(movies)
 
         # Getting user input for filtering criteria
