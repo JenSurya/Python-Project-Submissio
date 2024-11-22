@@ -24,7 +24,7 @@ def main():
             print("The selected genre is invalid. Kindly re-enter a valid option.")
             continue
 
-        # Fetching movies based on the selected genre
+        # Fetching movies based on the selected genre 
         movies = movies_list.fetch_movie_data(genre_id)
         if not movies:
             print("No movies found for the selected genre.")
